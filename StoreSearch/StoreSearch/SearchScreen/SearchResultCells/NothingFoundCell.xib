@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NothingFoundCell" id="21z-od-aKr">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="21z-od-aKr" id="1Gi-tY-4Xu">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DeS-8L-CPr">
+                        <rect key="frame" x="136.5" y="31" width="102" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" name="ArtistName"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DeS-8L-CPr" secondAttribute="trailing" constant="136.5" id="7xk-U0-VbH"/>
+                    <constraint firstItem="DeS-8L-CPr" firstAttribute="centerY" secondItem="1Gi-tY-4Xu" secondAttribute="centerY" id="HCo-nd-4Cx"/>
+                    <constraint firstItem="DeS-8L-CPr" firstAttribute="centerX" secondItem="1Gi-tY-4Xu" secondAttribute="centerX" id="V8A-wH-7Jw"/>
+                    <constraint firstItem="DeS-8L-CPr" firstAttribute="leading" secondItem="1Gi-tY-4Xu" secondAttribute="leading" constant="136.5" id="W37-4M-sQE"/>
+                    <constraint firstAttribute="bottom" secondItem="DeS-8L-CPr" secondAttribute="bottom" constant="31" id="YH9-Vf-tcU"/>
+                    <constraint firstItem="DeS-8L-CPr" firstAttribute="top" secondItem="1Gi-tY-4Xu" secondAttribute="top" constant="31" id="eBY-bz-bZk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="46" y="117"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="ArtistName">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
